@@ -1,0 +1,3 @@
+db.product.find().pretty()
+show collections
+use product-service
