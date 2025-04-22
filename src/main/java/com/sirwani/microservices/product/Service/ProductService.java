@@ -23,7 +23,7 @@ public class ProductService {
                 .price(productRequest.price())
                 .build();
 
-        log.info("Product added successfully");
+        log.info("Product added successfully!");
         return productRepo.save(product);
 //        return product;
     }
